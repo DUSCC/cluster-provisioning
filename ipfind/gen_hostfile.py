@@ -11,8 +11,7 @@ def is_ip(word):
         return True
     return False
 
-def main():
-    filename = "ugh.txt"
+def extract_ips(filename):
     ips = []
     with open(filename) as file:
         lines = file.readlines()
@@ -21,6 +20,19 @@ def main():
             for word in words:
                 if is_ip(word):
                     ips.append(word)
+    return ips
+
+def gen_hostfile(ips, outname):
+    with open(outname, "w+") as ofile:
+        for ip in ips:
+            line = f"{ip} slots=20 max_slots=20\n"
+            ofile.write(line)
+
+def main():
+    filename = "ugh.txt"
+    outname = "output.txt"
+    ips = extract_ips(filename)
+    gen_hostfile(ips, outname)
     print(ips)
 
 
