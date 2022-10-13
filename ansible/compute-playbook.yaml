@@ -1,0 +1,30 @@
+---
+- hosts: compute
+  become: true
+  remote_user: cc
+  tasks:
+    - name: Copy hosts file
+      copy:
+        src: ../hosts
+        dest: /etc/hosts
+        owner: root
+        group: root
+        mode: '0644'
+
+    - name: Install openMPI
+      yum:
+        name: openmpi
+        state: latest
+
+    - name: Install llvm
+      yum:
+        name: llvm
+        state: latest
+
+    - name: Install OpenBLAS
+      yum:
+        name: openblas
+        state: latest
+
+    - name: Mount nfs fileshare
+      shell: sudo mount cd-head:/home /home
