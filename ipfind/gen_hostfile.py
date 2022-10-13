@@ -30,7 +30,7 @@ def gen_hostfile(ips, outname):
 
 def main():
     filename = "ugh.txt"
-    outname = "output.txt"
+    outname = "hostfile"
     ips = extract_ips(filename)
     gen_hostfile(ips, outname)
     print(ips)
