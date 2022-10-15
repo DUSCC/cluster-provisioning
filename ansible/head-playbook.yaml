@@ -3,17 +3,17 @@
   become: true
   remote_user: cc
   tasks:
-#    - name: Copy exports file
-#      copy:
-#        src: ./exports
-#        dest: /etc/exports
-#        owner: root
-#        group: root
-#        mode: '0644'
+    - name: Copy exports file
+      copy:
+        src: ../src/exports
+        dest: /etc/exports
+        owner: root
+        group: root
+        mode: '0644'
 
     - name: Copy hosts file
       copy:
-        src: ../hosts
+        src: ../src/hosts
         dest: /etc/hosts
         owner: root
         group: root

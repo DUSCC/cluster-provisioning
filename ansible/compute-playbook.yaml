@@ -5,7 +5,7 @@
   tasks:
     - name: Copy hosts file
       copy:
-        src: ../hosts
+        src: ../src/hosts
         dest: /etc/hosts
         owner: root
         group: root
@@ -27,4 +27,4 @@
         state: latest
 
     - name: Mount nfs fileshare
-      shell: sudo mount cd-head:/home /home
+      shell: sudo mount head:/home /home
