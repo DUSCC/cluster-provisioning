@@ -1,0 +1,101 @@
+	compute-20	CC-Centos8-stream
+
+    10.25.32.172
+
+	baremetal	darius-desktop 	Active 		nova 	None 	Running 	11 minutes	
+	compute-9	CC-Centos8-stream 	
+
+    10.25.32.159
+
+	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
+	compute-8	CC-Centos8-stream 	
+
+    10.25.32.130
+
+	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
+	compute-7	CC-Centos8-stream 	
+
+    10.25.32.37
+
+	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
+	compute-6	CC-Centos8-stream 	
+
+    10.25.32.70
+
+	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
+	compute-5	CC-Centos8-stream 	
+
+    10.25.32.38
+
+	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
+	compute-4	CC-Centos8-stream 	
+
+    10.25.32.14
+
+	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
+	compute-3	CC-Centos8-stream 	
+
+    10.25.32.217
+
+	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
+	compute-2	CC-Centos8-stream 	
+
+    10.25.32.131
+
+	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
+	compute-19	CC-Centos8-stream 	
+
+    10.25.32.117
+
+	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
+	compute-18	CC-Centos8-stream 	
+
+    10.25.32.226
+
+	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
+	compute-17	CC-Centos8-stream 	
+
+    10.25.32.48
+
+	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
+	compute-16	CC-Centos8-stream 	
+
+    10.25.32.100
+
+	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
+	compute-15	CC-Centos8-stream 	
+
+    10.25.32.201
+
+	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
+	compute-14	CC-Centos8-stream 	
+
+    10.25.32.232
+
+	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
+	compute-13	CC-Centos8-stream 	
+
+    10.25.32.86
+
+	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
+	compute-12	CC-Centos8-stream 	
+
+    10.25.32.65
+
+	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
+	compute-11	CC-Centos8-stream 	
+
+    10.25.32.133
+
+	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
+	compute-10	CC-Centos8-stream 	
+
+    10.25.32.228
+
+	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
+	compute-1	CC-Centos8-stream 	
+
+    10.25.32.189
+
+	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
+Displaying 20 items | Next »

@@ -1,0 +1,23 @@
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+10.25.32.50  head
+10.25.32.189 compute-01
+10.25.32.131 compute-02
+10.25.32.217 compute-03
+10.25.32.14  compute-04
+10.25.32.38  compute-05
+10.25.32.70  compute-06
+10.25.32.37  compute-07
+10.25.32.130 compute-08
+10.25.32.159 compute-09
+10.25.32.228 compute-10
+10.25.32.133 compute-11
+10.25.32.65  compute-12
+10.25.32.86  compute-13
+10.25.32.232 compute-14
+10.25.32.201 compute-15
+10.25.32.100 compute-16
+10.25.32.48  compute-17
+10.25.32.226 compute-18
+10.25.32.117 compute-19
+10.25.32.172 compute-20

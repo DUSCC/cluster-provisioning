@@ -1,8 +1,0 @@
-10.25.32.32 slots=20 max_slots=20
-10.25.32.182 slots=20 max_slots=20
-10.25.32.106 slots=20 max_slots=20
-10.25.32.128 slots=20 max_slots=20
-10.25.32.26 slots=20 max_slots=20
-10.25.32.35 slots=20 max_slots=20
-10.25.32.80 slots=20 max_slots=20
-10.25.32.25 slots=20 max_slots=20
