@@ -1,5 +1,6 @@
 ---
 - hosts: compute
+  strategy: free
   become: true
   remote_user: cc
   tasks:
@@ -7,6 +8,14 @@
       copy:
         src: ../src/hosts
         dest: /etc/hosts
+        owner: root
+        group: root
+        mode: '0644'
+
+    - name: Copy ssh config
+      copy:
+        src: ../src/ssh_config
+        dest: /etc/ssh/ssh_config
         owner: root
         group: root
         mode: '0644'

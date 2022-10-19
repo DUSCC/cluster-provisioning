@@ -2,7 +2,7 @@
 duscc.ddns.net
 
 [compute]
-compute-[01:20]
+ib-compute-[02:05]
 
 [compute:vars]
 ansible_ssh_common_args='-J cc@duscc.ddns.net -o StrictHostKeyChecking=no'
