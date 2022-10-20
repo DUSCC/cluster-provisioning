@@ -24,5 +24,14 @@ with open("src/hosts", 'w') as f:
     f.write("::1          localhost localhost.localdomain localhost6 localhost6.localdomain6\n")
     f.write(output)
 
+broken_hosts = set()
+with open("src/broken_hosts", 'r') as f:
+    for line in f.readlines():
+        broken_hosts.add(line.strip())
+
+with open("src/bad_ip_hosts", 'r') as f:
+    for line in f.readlines():
+        broken_hosts.add(line.strip())
+
 with open("src/hostfile", 'w') as f:
-    f.writelines(f"{name} slots=1 max_slots=1\n" for name, ip in hosts_output[:-1])
+    f.writelines(f"{name} slots=20 max_slots=20\n" for name, ip in hosts_output[:-1] if name not in broken_hosts)

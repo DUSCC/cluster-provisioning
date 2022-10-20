@@ -1,0 +1,29 @@
+---
+- hosts: head
+  strategy: free
+  become: true
+  remote_user: cc
+  tasks:
+    - name: Move node_exporter to /usr/local/bin
+      copy:
+        src: /home/cc/node_exporter-1.4.0.linux-amd64/node_exporter
+        dest: /usr/local/bin/node_exporter
+        remote_src: true
+        owner: root
+        group: root
+        mode: 0755
+
+    - name: Install service file to systemd
+      template:
+        src: templates/node_exporter.service.j2
+        dest: /etc/systemd/system/node_exporter.service
+        owner: root
+        group: root
+        mode: 0600
+
+    - name: Configure systemd to use exporter service
+      systemd:
+        daemon_reload: yes
+        enabled: yes
+        state: started
+        name: node_exporter.service
