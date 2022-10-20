@@ -1,23 +1,33 @@
-127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
-::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
-10.25.32.50  head
-10.25.32.189 compute-01
-10.25.32.131 compute-02
-10.25.32.217 compute-03
-10.25.32.14  compute-04
-10.25.32.38  compute-05
-10.25.32.70  compute-06
-10.25.32.37  compute-07
-10.25.32.130 compute-08
-10.25.32.159 compute-09
-10.25.32.228 compute-10
-10.25.32.133 compute-11
-10.25.32.65  compute-12
-10.25.32.86  compute-13
-10.25.32.232 compute-14
-10.25.32.201 compute-15
-10.25.32.100 compute-16
-10.25.32.48  compute-17
-10.25.32.226 compute-18
-10.25.32.117 compute-19
-10.25.32.172 compute-20
+127.0.0.1    localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1          localhost localhost.localdomain localhost6 localhost6.localdomain6
+10.25.32.59  head
+10.25.34.146 compute-001
+10.25.32.142 compute-002
+10.25.34.15  compute-003
+10.25.34.219 compute-004
+10.25.35.112 compute-005
+10.25.34.150 compute-006
+10.25.33.143 compute-007
+10.25.32.170 compute-008
+10.25.32.213 compute-009
+10.25.34.131 compute-010
+10.25.35.122 compute-011
+10.25.35.116 compute-012
+10.25.33.164 compute-013
+10.25.35.23  compute-014
+10.25.34.183 compute-015
+10.25.32.207 compute-016
+10.25.32.171 compute-017
+10.25.34.148 compute-018
+10.25.34.155 compute-019
+10.25.33.211 compute-020
+10.25.33.183 compute-021
+10.25.33.139 compute-022
+10.25.32.14  compute-023
+10.25.32.7   compute-024
+10.25.32.160 compute-025
+10.25.34.175 compute-026
+10.25.34.231 compute-027
+10.25.34.173 compute-028
+10.25.34.54  compute-029
+10.25.33.13  compute-030

@@ -19,6 +19,14 @@
         group: root
         mode: '0644'
 
+    - name: Copy hostfile
+      copy:
+        src: ../src/hostfile
+        dest: /home/cc/hostfile
+        owner: cc
+        group: cc
+        mode: '0644'
+
     - name: Copy ssh config
       copy:
         src: ../src/ssh_config

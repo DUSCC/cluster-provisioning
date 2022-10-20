@@ -1,2 +1,2 @@
-/home 10.25.32.0/24(rw,sync,no_root_squash)
-/apps 10.25.32.0/24(rw,sync,no_root_squash)
+/home 10.25.32.0/22(rw,sync,no_root_squash)
+/apps 10.25.32.0/22(rw,sync,no_root_squash)

@@ -1,101 +1,119 @@
-	compute-20	CC-Centos8-stream
+compute-20	indyscc-compute-node 	
 
-    10.25.32.172
+    10.25.32.200
 
-	baremetal	darius-desktop 	Active 		nova 	None 	Running 	11 minutes	
-	compute-9	CC-Centos8-stream 	
+	baremetal	darius-desktop 	Build 		nova 	
+Spawning 	No State 	3 minutes	
+	compute-9	indyscc-compute-node 	
 
-    10.25.32.159
+    10.25.32.208
 
-	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
-	compute-8	CC-Centos8-stream 	
+	baremetal	darius-desktop 	Build 		nova 	
+Spawning 	No State 	4 minutes	
+	compute-8	indyscc-compute-node 	
 
-    10.25.32.130
+    10.25.32.229
 
-	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
-	compute-7	CC-Centos8-stream 	
+	baremetal	darius-desktop 	Build 		nova 	
+Spawning 	No State 	4 minutes	
+	compute-7	indyscc-compute-node 	
 
-    10.25.32.37
+    10.25.32.111
 
-	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
-	compute-6	CC-Centos8-stream 	
+	baremetal	darius-desktop 	Build 		nova 	
+Spawning 	No State 	4 minutes	
+	compute-6	indyscc-compute-node 	
 
-    10.25.32.70
+    10.25.32.33
 
-	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
-	compute-5	CC-Centos8-stream 	
+	baremetal	darius-desktop 	Build 		nova 	
+Spawning 	No State 	4 minutes	
+	compute-5	indyscc-compute-node 	
 
-    10.25.32.38
+    10.25.32.15
 
-	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
-	compute-4	CC-Centos8-stream 	
+	baremetal	darius-desktop 	Build 		nova 	
+Spawning 	No State 	4 minutes	
+	compute-4	indyscc-compute-node 	
 
-    10.25.32.14
+    10.25.32.161
 
-	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
-	compute-3	CC-Centos8-stream 	
+	baremetal	darius-desktop 	Build 		nova 	
+Spawning 	No State 	4 minutes	
+	compute-3	indyscc-compute-node 	
 
-    10.25.32.217
+    10.25.32.218
 
-	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
-	compute-2	CC-Centos8-stream 	
+	baremetal	darius-desktop 	Build 		nova 	
+Spawning 	No State 	4 minutes	
+	compute-2	indyscc-compute-node 	
 
-    10.25.32.131
+    10.25.32.30
 
-	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
-	compute-19	CC-Centos8-stream 	
+	baremetal	darius-desktop 	Build 		nova 	
+Spawning 	No State 	4 minutes	
+	compute-19	indyscc-compute-node 	
 
-    10.25.32.117
+    10.25.32.214
 
-	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
-	compute-18	CC-Centos8-stream 	
+	baremetal	darius-desktop 	Build 		nova 	
+Spawning 	No State 	4 minutes	
+	compute-18	indyscc-compute-node 	
 
-    10.25.32.226
+    10.25.32.12
 
-	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
-	compute-17	CC-Centos8-stream 	
-
-    10.25.32.48
-
-	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
-	compute-16	CC-Centos8-stream 	
+	baremetal	darius-desktop 	Build 		nova 	
+Spawning 	No State 	4 minutes	
+	compute-17	indyscc-compute-node 	
 
     10.25.32.100
 
-	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
-	compute-15	CC-Centos8-stream 	
+	baremetal	darius-desktop 	Build 		nova 	
+Spawning 	No State 	4 minutes	
+	compute-16	indyscc-compute-node 	
 
-    10.25.32.201
+    10.25.32.95
 
-	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
-	compute-14	CC-Centos8-stream 	
+	baremetal	darius-desktop 	Build 		nova 	
+Spawning 	No State 	4 minutes	
+	compute-15	indyscc-compute-node 	
 
-    10.25.32.232
+    10.25.32.18
 
-	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
-	compute-13	CC-Centos8-stream 	
+	baremetal	darius-desktop 	Build 		nova 	
+Spawning 	No State 	4 minutes	
+	compute-14	indyscc-compute-node 	
 
-    10.25.32.86
+    10.25.32.93
 
-	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
-	compute-12	CC-Centos8-stream 	
+	baremetal	darius-desktop 	Build 		nova 	
+Spawning 	No State 	4 minutes	
+	compute-13	indyscc-compute-node 	
 
-    10.25.32.65
+    10.25.32.248
 
-	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
-	compute-11	CC-Centos8-stream 	
+	baremetal	darius-desktop 	Build 		nova 	
+Spawning 	No State 	4 minutes	
+	compute-12	indyscc-compute-node 	
 
-    10.25.32.133
+    10.25.32.13
 
-	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
-	compute-10	CC-Centos8-stream 	
+	baremetal	darius-desktop 	Build 		nova 	
+Spawning 	No State 	4 minutes	
+	compute-11	indyscc-compute-node 	
 
-    10.25.32.228
+    10.25.32.120
 
-	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
-	compute-1	CC-Centos8-stream 	
+	baremetal	darius-desktop 	Build 		nova 	
+Spawning 	No State 	4 minutes	
+	compute-10	indyscc-compute-node 	
 
-    10.25.32.189
+    10.25.32.103
 
-	baremetal	darius-desktop 	Active 		nova 	None 	Running 	20 hours, 21 minutes	
-Displaying 20 items | Next »
+	baremetal	darius-desktop 	Build 		nova 	
+Spawning 	No State 	4 minutes	
+	compute-1	indyscc-compute-node 	
+
+    10.25.32.8
+
+	baremetal
