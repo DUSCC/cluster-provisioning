@@ -12,7 +12,7 @@ for node in nodes:
         ip = node['Networks']['stbl'][0]
     except KeyError:
         continue
-    name = '-'.join(f"{substr:>03}" for substr in node['Name'].split('-'))
+    name = '-'.join(f"{substr:>02}" for substr in node['Name'].split('-'))
     hosts_output += [[name, ip]]
 
 hosts_output.sort(key=lambda x: x[0])

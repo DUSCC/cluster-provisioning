@@ -1,5 +1,5 @@
 ---
-- hosts: head
+- hosts: compute
   strategy: free
   become: true
   remote_user: cc

@@ -3,13 +3,13 @@
   become: true
   remote_user: cc
   tasks:
-#    - name: Copy exports file
-#      copy:
-#        src: ../src/exports
-#        dest: /etc/exports
-#        owner: root
-#        group: root
-#        mode: '0644'
+    - name: Copy exports file
+      copy:
+        src: ../src/exports
+        dest: /etc/exports
+        owner: root
+        group: root
+        mode: '0644'
 
     - name: Copy hosts file
       copy:
@@ -22,15 +22,15 @@
     - name: Copy hostfile
       copy:
         src: ../src/hostfile
-        dest: /home/cc/generated_hostfile
+        dest: /home/cc/new_new_generated_hostfile
         owner: cc
         group: cc
         mode: '0644'
 
-#    - name: Copy ssh config
-#      copy:
-#        src: ../src/ssh_config
-#        dest: /etc/ssh/ssh_config
-#        owner: root
-#        group: root
-#        mode: '0644'
+    - name: Copy ssh config
+      copy:
+        src: ../src/ssh_config
+        dest: /etc/ssh/ssh_config
+        owner: root
+        group: root
+        mode: '0644'

@@ -2,40 +2,7 @@
 duscc.ddns.net
 
 [compute]
-compute-081
-compute-082
-compute-031
-compute-003
-compute-011
-compute-026
-compute-035
-compute-053
-compute-057
-compute-091
-compute-112
-compute-118
-compute-157
-compute-181
-compute-199
-compute-225
-compute-230
-compute-246
-compute-297
-compute-292
-compute-287
-compute-283
-compute-281
-compute-268
-compute-032
-compute-036
-compute-013
-compute-309
-compute-037
-compute-036
-compute-032
-compute-017
-compute-015
-compute-013
+compute-node-[01:20]
 
 [compute:vars]
 ansible_ssh_common_args='-J cc@duscc.ddns.net -o StrictHostKeyChecking=no'

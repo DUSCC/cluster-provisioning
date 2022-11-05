@@ -36,4 +36,4 @@
 #        state: latest
 
     - name: Mount nfs fileshare
-      shell: sudo mount head:/home /home
+      shell: sudo mount head-node:/home /home
